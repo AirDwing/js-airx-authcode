@@ -10,7 +10,7 @@
 ```js
 const {encode} = require('@airx/authcode');
 
-encode('test'','key')
+encode('test','key')
 // 1df4l6f9CFjMtkqRCi8IHj4hB/0c/HjyEWs0ZweV6jrB
 encode('test','key',300)
 // 33db1iVqMQUWBO7Tp44qKK+Dtl6cbBG9hNwYP1BKF5U6

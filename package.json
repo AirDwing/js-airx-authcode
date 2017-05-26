@@ -1,0 +1,27 @@
+{
+  "name": "@airx/authcode",
+  "version": "1.0.1",
+  "description": "Authcode for node",
+  "main": "index.js",
+  "scripts": {
+  },
+  "dependencies": {
+    "@dwing/common": "^1.0.3"
+  },
+  "devDependencies": {
+    "eslint-config-dwing": "^1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/airdwing/node-airx-authcode.git"
+  },
+  "keywords": [
+    "authcode"
+  ],
+  "author": "Willin Wang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/airdwing/node-airx-authcode/issues"
+  },
+  "homepage": "https://github.com/airdwing/node-airx-authcode#readme"
+}

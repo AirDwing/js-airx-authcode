@@ -29,9 +29,15 @@ decode('1df4l6f9CFjMtkqRCi8IHj4hB/0c/HjyEWs0ZweV6jrB','key')
 
 浏览器:
 
-```js
-// <script src="PATH/TO/node_modules/@airx/authcode/dist/index.js"></script>
+引用
 
+```html
+<script src="PATH/TO/node_modules/@airx/authcode/dist/authcode.js"></script>
+<!-- 或 -->
+<script src="https://rawgit.com/AirDwing/js-airx-authcode/master/dist/authcode.js"></script>
+```
+
+```js
 authcode.encode('test','key')
 // 1df4l6f9CFjMtkqRCi8IHj4hB/0c/HjyEWs0ZweV6jrB
 

@@ -5,6 +5,8 @@
 
 ## Examples
 
+Node.js
+
 ### ENCODE
 
 ```js
@@ -22,6 +24,18 @@ encode('test','key',300)
 const {decode} = require('@airx/authcode');
 
 decode('1df4l6f9CFjMtkqRCi8IHj4hB/0c/HjyEWs0ZweV6jrB','key')
+// test
+```
+
+浏览器:
+
+```js
+// <script src="PATH/TO/node_modules/@airx/authcode/dist/index.js"></script>
+
+authcode.encode('test','key')
+// 1df4l6f9CFjMtkqRCi8IHj4hB/0c/HjyEWs0ZweV6jrB
+
+authcode.decode('1df4l6f9CFjMtkqRCi8IHj4hB/0c/HjyEWs0ZweV6jrB','key')
 // test
 ```
 

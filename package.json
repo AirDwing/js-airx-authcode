@@ -1,9 +1,11 @@
 {
   "name": "@airx/authcode",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Authcode for node",
   "main": "index.js",
   "scripts": {
+    "compile": "browserify browser/index.js -o dist/index.js",
+    "prepublish": "npm run compile"
   },
   "dependencies": {
     "@dwing/common": "^1.0.3"

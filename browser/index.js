@@ -376,10 +376,10 @@
   };
   var authcoder = {
     encode: function (str, key, expiry) {
-      return authcode(str, key, 'ENCODE', expiry);
+      return authcode(str, 'ENCODE', key, expiry);
     },
     decode: function (str, key) {
-      return authcode(str, key, 'DECODE');
+      return authcode(str, 'DECODE', key);
     }
   };
   $.authcode = authcoder;

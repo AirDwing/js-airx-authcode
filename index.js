@@ -27,7 +27,7 @@ const authcode = function (str, key, operation = 'ENCODE', expiry = 0) {
   let strbuf;
   if (operation === 'DECODE') {
     str = str.substr(ckeyLength);
-    strbuf = new Buffer(str, 'base64');
+    strbuf = Buffer.from(str, 'base64');
     // string = b.toString();
   } else {
     expiry = expiry ? expiry + (0, getTimestamp)() : 0;
@@ -41,7 +41,7 @@ const authcode = function (str, key, operation = 'ENCODE', expiry = 0) {
       }
       str = tmpstr + (0, md5)(str + keyb).substr(0, 16) + str;
     }
-    strbuf = new Buffer(str);
+    strbuf = Buffer.from(str);
   }
 
   const box = new Array(256);

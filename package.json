@@ -1,6 +1,6 @@
 {
-  "name": "@airx/authcode",
-  "version": "1.2.3",
+  "name": "@aird/authcode",
+  "version": "1.4.3",
   "description": "Authcode for node/browser",
   "main": "index.js",
   "scripts": {
@@ -19,7 +19,7 @@
   "keywords": [
     "authcode"
   ],
-  "author": "Willin Wang",
+  "author": "Dwing",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/airdwing/node-airx-authcode/issues"
